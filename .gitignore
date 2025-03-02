@@ -21,7 +21,7 @@ gen/
 # Recommended build directory
 build/
 Debug/
-.conan/
+Testing/
 bin/build
 bin/test
 
