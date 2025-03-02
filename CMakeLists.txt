@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.30)
+project(cpp_modules)
+
+set(CMAKE_CXX_STANDARD 20)
+# Ensure that we are not using GNU extensions
+# so that the module can be linked using clang++
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+# Specify the path to the external PCM and object files using an environment variable
+set(PCM_PATH $ENV{USR_LOCAL}/lib/demo)
+set(OBJ_MODULE ${PCM_PATH}/demo.o)
+message(STATUS "Module Library Path: ${PCM_PATH}")
+
+add_executable(use_demo main.cpp)
+
+# Ensure the compiler knows where to find the PCM file
+target_compile_options(use_demo PRIVATE -fprebuilt-module-path=${PCM_PATH})
+
+# Link the module object file
+target_link_libraries(use_demo PRIVATE ${OBJ_MODULE})

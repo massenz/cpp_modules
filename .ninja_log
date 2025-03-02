@@ -1,0 +1,14 @@
+# ninja log v6
+18	217	1740620786803134147	use_demo	2befab3d6187604b
+8	162	1740620708154533363	CMakeFiles/use_demo.dir/main.cpp.o.ddi	29455f54f9490722
+1	51	1740634812715996080	build.ninja	42452f230e37a6c9
+4	13	1740620823678867336	CMakeFiles/use_demo.dir/CXX.dd	ceb786a46f5eda21
+4	13	1740620823678867336	CMakeFiles/use_demo.dir/main.cpp.o.modmap	ceb786a46f5eda21
+4	13	1740620823678867336	/Users/marco/Development/Playgrounds/cpp_modules/CMakeFiles/use_demo.dir/CXXModules.json	ceb786a46f5eda21
+170	909	1740620708317102709	CMakeFiles/use_demo.dir/main.cpp.o	6a0284c93a54a09c
+6	298	1740634874506222644	CMakeFiles/use_demo.dir/main.cpp.o.ddi	29455f54f9490722
+298	309	1740634874798221908	CMakeFiles/use_demo.dir/CXX.dd	ceb786a46f5eda21
+298	309	1740634874798221908	/Users/marco/Development/Playgrounds/cpp_modules/CMakeFiles/use_demo.dir/CXXModules.json	ceb786a46f5eda21
+298	309	1740634874798221908	CMakeFiles/use_demo.dir/main.cpp.o.modmap	ceb786a46f5eda21
+309	1103	1740634874808692402	CMakeFiles/use_demo.dir/main.cpp.o	6a0284c93a54a09c
+1103	1260	1740634875603055390	use_demo	2befab3d6187604b
