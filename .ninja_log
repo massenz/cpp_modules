@@ -1,8 +1,0 @@
-# ninja log v6
-1036	1189	1740891960429704912	use_demo	2befab3d6187604b
-6	243	1740891959399608861	CMakeFiles/use_demo.dir/main.cpp.o.ddi	29455f54f9490722
-1	51	1740892626743173566	build.ninja	42452f230e37a6c9
-243	254	1740891959636040397	CMakeFiles/use_demo.dir/CXX.dd	ceb786a46f5eda21
-243	254	1740891959636040397	CMakeFiles/use_demo.dir/main.cpp.o.modmap	ceb786a46f5eda21
-243	254	1740891959636040397	/Users/marco/Development/Playgrounds/cpp_modules/CMakeFiles/use_demo.dir/CXXModules.json	ceb786a46f5eda21
-254	1036	1740891959647776015	CMakeFiles/use_demo.dir/main.cpp.o	6a0284c93a54a09c

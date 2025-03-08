@@ -35,3 +35,4 @@ logs/
 build-unix
 .cmake
 .DS_Store
+.ninja_*
