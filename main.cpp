@@ -1,14 +1,21 @@
-#include <format>
+#include <iostream>
+#include <string>
 
 import demo;
 
+using namespace std::literals;
+using namespace demo;
+
 int main() {
-  auto lang = "C++";
-  auto s = std::format("Hello and welcome to {}", lang);
-  demo::emit(std::format("Hello and welcome to {}", lang));
+  const auto lang = "C++"s;
+  constexpr auto version = 20;
+
+  // Here we can use values of different types, and the variadic
+  // template will take care of the rest.
+  emit("Hello and welcome to ", lang, version, " modules"s);
 
   for (int i = 1; i <= 5; i++) {
-    demo::emit(std::format("i = {}", i));
+    emit("i = ", i);
   }
 
   return 0;

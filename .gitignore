@@ -36,3 +36,4 @@ build-unix
 .cmake
 .DS_Store
 .ninja_*
+use_demo
