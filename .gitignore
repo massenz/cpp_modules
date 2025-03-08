@@ -12,6 +12,7 @@
 docs/apidocs/
 
 # CMake files
+.cmake
 CMakeCache.txt
 CMakeFiles/
 Makefile
@@ -30,10 +31,6 @@ bin/test
 .so
 .la
 
-cmake-build-debug
-logs/
-build-unix
-.cmake
 .DS_Store
 .ninja_*
-use_demo
+build.ninja
