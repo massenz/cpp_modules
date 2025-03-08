@@ -27,5 +27,6 @@ run: $(exe)
 clean:
 	@echo "--- Cleaning demo..."
 	@rm -rf build
+	@rm output.txt
 
 all: build

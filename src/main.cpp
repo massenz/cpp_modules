@@ -1,4 +1,4 @@
-#include <iostream>
+#include <fstream>
 #include <string>
 
 import demo;
@@ -17,6 +17,10 @@ int main() {
   for (int i = 1; i <= 5; i++) {
     emit("i = ", i);
   }
+
+  // Using emit to write out to a file instead of the console.
+  std::ofstream outFile("output.txt");
+  emit(outFile, "Writing to a file:\n", "Using modules: ", "demo"s);
 
   return 0;
 }
