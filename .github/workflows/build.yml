@@ -1,0 +1,17 @@
+name: C++ Build/Test
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build
+      run: make all
+    - name: Test
+      # TODO: add unit tests
+      run: echo "--- Test ⚙️" 
