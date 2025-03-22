@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - name: setup-ninja
+      uses: wirekang/setup-ninja@v1
+      with:
+        # suffix from official release(e.g. 'win', 'linux' or 'mac')
+        platform: linux 
+        # git tag(e.g. v1.11.1)
+        # tag: # optional, default is v1.11.1
     - name: Build
       run: make all
     - name: Test
