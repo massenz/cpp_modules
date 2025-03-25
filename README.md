@@ -1,7 +1,7 @@
 # C++20 Modules - simple demo
 
 ![C++](https://img.shields.io/badge/C++-20-blue)
-[![C++ Build/Test](https://github.com/massenz/cpp_modules/actions/workflows/build.yml/badge1.svg)](https://github.com/massenz/cpp_modules/actions/workflows/build.yml)
+[![C++ Build/Test](https://github.com/massenz/cpp_modules/actions/workflows/build.yml/badge.svg)](https://github.com/massenz/cpp_modules/actions/workflows/build.yml)
 
 <img src="images/modules_in_space.png" alt="Modules in Space" height="500px">
 
