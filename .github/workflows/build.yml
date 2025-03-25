@@ -21,4 +21,4 @@ jobs:
       run: CLANG=clang++ make all
     - name: Test
       # TODO: add unit tests
-      run: @echo "--- Test ⚙️" 
+      run: echo "--- Test ⚙️" 
