@@ -18,7 +18,7 @@ jobs:
         # git tag(e.g. v1.11.1)
         # tag: # optional, default is v1.11.1
     - name: Build
-      run: make all
+      run: CLANG=clang++ make all
     - name: Test
       # TODO: add unit tests
-      run: echo "--- Test ⚙️" 
+      run: @echo "--- Test ⚙️" 

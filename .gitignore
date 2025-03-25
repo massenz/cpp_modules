@@ -24,3 +24,4 @@ Testing/
 .ninja_*
 build.ninja
 output.txt
+.cache
